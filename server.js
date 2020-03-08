@@ -14,6 +14,11 @@ const resolvers = {
     user() {
       return { name: "hoge", id: "hoge" };
     }
+  },
+  Mutation: {
+    updateUser: (root, args) => {
+      return { name: "updatedhaoge", id: "hoge" };
+    }
   }
 };
 

@@ -6,3 +6,7 @@ type User {
 type Query {
   user: User!
 }
+
+type Mutation {
+  updateUser(name: String!): User
+}
