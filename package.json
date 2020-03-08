@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.11.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "graphql-tools": "^4.0.7",
+    "nodemon": "^2.0.2"
+  }
+}
